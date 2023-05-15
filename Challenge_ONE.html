@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>Challenge ONE</title>
+        <link rel="stylesheet" href="/Códigos_de_Oracle_ONE/Diseño web/Posicionamiento, listas y navegación/reset.css">
+        <link rel="stylesheet" href="challenge_one.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header>
+            <img src="imagenes/Logo.png" alt="Logo de Alura">
+            <h1>ENCRIPTADOR DE TEXTO</h1>
+        </header>
+        <main>
+            <section class="entrada">
+                <textarea class="area" placeholder="Ingresa tu mensaje..."></textarea>
+                <div class="advertencia">
+                    <p>⚠ No ingresar acentos ni carecteres espaciales</p>
+                </div>
+                <div class="botones">
+                    <button id="encriptar">Encriptar</button>
+                    <button id="desencriptar">Desencriptar</button>
+                </div>
+            </section>
+            <section class="salida">
+                <div class="imagen_echo">
+                    <img src="imagenes/tumblr_98a34eca3caacbe1a7f4f7cea5bd8b24_09fbf40e_400.webp" alt="Imagen de busqueda de texto">
+                </div>
+                <div class="subtexto">
+                    <h3>Buscando transmisión...</h3>
+                </div>
+                <div class="ingresarmsg">
+                    <p>Introduce un mensaje</p>
+                </div>
+
+                <!-- aqui empieza lo que se muestra al pulsar los botones -->
+                <div class="contenedor_resultado">
+                    <p>Transmisión decodificada:</p>
+                    <br>
+                    <output id="resultado"></output>
+                </div>
+                <div class="boton_copiar">
+                    <button id="copiar">Copiar</button>
+                </div>
+            </section>
+        </main>
+        <footer>no</footer>
+
+    </body>
+
+</html>
+
+<script src="challenge_one.js"></script>
