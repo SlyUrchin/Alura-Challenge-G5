@@ -61,6 +61,7 @@ section{
     padding-left: 10%;
     height: 5%;
     margin: 2% 0;
+    color: #C8C8C8;
 }
 
 .botones{
@@ -105,6 +106,7 @@ div {
     text-align: center;
     padding-top: 3%;
     font-size: 1.4rem;
+    color: #C8C8C8;
 }
 
 .ingresarmsg{
@@ -113,6 +115,7 @@ div {
     text-align: center;
     font-size: 1.2rem;
     padding-top: 2rem;
+    color: #C8C8C8;
 }
 
 .contenedor_resultado{
@@ -120,6 +123,7 @@ div {
     height: 85%;
     margin-bottom: 12.5%;
     font-size: large;
+    color: #C8C8C8;
 }
 
 .boton_copiar{
