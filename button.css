@@ -1,5 +1,5 @@
 .ui-btn {
-    --btn-default-bg: rgba(0, 0, 0, 0.842);
+    --btn-default-bg: rgba(#500992, 0.842);
     --btn-padding: 15px 20px;
     --btn-hover-bg: rgb(21, 0, 71);
     --btn-transition: .3s;
