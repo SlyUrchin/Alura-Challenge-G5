@@ -189,6 +189,13 @@ ul li img:hover{
     transform: scale(1.20);
 }
 
+.glass{
+    background: linear-gradient(135deg, rgba(52, 0, 77, 0.15), rgba(52, 0, 77, 0));
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0, 0.37);
+}
+
 /* clase para ocultar elementos */
 .ocultar{
     display: none;
