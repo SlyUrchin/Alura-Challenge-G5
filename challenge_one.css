@@ -26,16 +26,16 @@ header{
 
 main {
     width: 100%;
-    height: 36rem;
+    height: 576px;
     display: flex;
     justify-content: space-between;
     background-image: url(imagenes/tumblr_c40f10ad082a10dedbbcf9223271a4f9_6f19756a_400.webp);
     background-size: 100% 100%;
+    padding: 15px 0 15px 0;
 }
 
 section{
     height: 100%;
-    width: 40%;
     box-sizing: border-box;
     border-radius: 3.5%;
     opacity: 100%;
@@ -103,7 +103,7 @@ section{
 }
 
 .imagen_echo{
-    padding-top: 12%;
+    padding-top: 10%;
     width: 100%;
     height: 60%;
     overflow: hidden;
@@ -158,23 +158,24 @@ footer {
     background: radial-gradient(circle, rgb(30, 3, 63) 1%, rgb(1, 0, 14) 60%);
     width: 100%;
     height: 4.2rem;
-    display: block;
     color: #C8C8C8;
-    box-sizing: border-box;
-    padding: 0.5rem 0;
+    display: flex;
+    align-items: center;
 }
 
 .footer{
     width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 2px;
-    margin-bottom: 5px;
+    text-align: center;
     box-sizing: border-box;
+}
+
+.referencia{
+    display: block;
 }
 
 ul{
     width: 100%;
+    margin-top: 5px;
     display: flex;
     justify-content: center;
     box-sizing: border-box;
@@ -182,7 +183,10 @@ ul{
 
 ul li{
     margin: 2px;
-    box-sizing: border-box;
+}
+
+ul li img:hover{
+    transform: scale(1.20);
 }
 
 /* clase para ocultar elementos */
@@ -190,3 +194,77 @@ ul li{
     display: none;
 }
 /* clase para ocultar elementos */
+
+/* responsividad */
+
+@media screen and (max-width:760px){
+
+    header{
+        display: block;
+        height: auto;
+        padding: 2% 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .titulo{
+        margin-top: 5px;
+        display: block;
+    }
+
+    main{
+        display: block;
+        height: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .entrada{
+        height: 500px;
+        width: auto;
+        margin: 0 2% 10px 2%;
+        box-sizing: border-box;
+    }
+    
+    .area{
+        width: 100%;
+        font-size:1.3rem;
+    }
+
+    .advertencia{
+        padding-left: 0%;
+        width: 100%;
+        font-size: small;
+    }
+
+    .botones{
+        height: 10%;
+        font-size:x-small
+    }
+
+    .salida{
+        width: auto;
+        height: 500px;
+        box-sizing: border-box;
+        overflow: hidden;
+        margin: 0 2% 0 2%;
+    }
+
+    .imagen_echo{
+        padding-top: 2%;
+    }
+
+    .contenedor_resultado{
+        margin-bottom: 10px;
+    }
+
+    .boton_copiar{
+        height: 10%;
+    }
+
+    footer{
+        height: auto;
+        padding: 2% 0;
+    }
+
+}
